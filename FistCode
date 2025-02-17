@@ -1,0 +1,52 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Parque Estadual Ilha Bela</title>
+
+        <body>
+
+            <h1>Parque Estadual Ilha Bela</h1>
+
+            <img src="ilhabela.webp" title="Parqueilhabela" alt="ilhabelaParque" />
+
+        <div>
+            <h2> O lugar ideal paraa momentos inesquecíveis</h2>
+            <p>Fundado em 1992 o Parque Estadual Ilha Bela é o lugar idela para você desfrute de ótimos momentos. Anualmente 2 milhões de visitantes passam pelo parque para conhecer o local. Veja o que o parque oferece:
+            </p>
+        </div>
+
+        <div>
+            <h3>Tranquilidade e Segurança</h3>
+            <p>Por todo o parque é possivel ver  um clima de tranquilidade e segurança. É o lugar perfeito para se reunir com amigos, familiares ou até mesmo para visitar sozinho.</p>
+        </div>
+
+        <div>
+            <h3>Paisagens de tirar o folego</h3>
+            <p>Diversos tipos de paisagens podem ser vistas ao longo do parque, então é garantia de fotos incriveis de todos os tipos.</p>
+        </div>
+
+        <div>
+            <h3>Entrada Franca</h3>
+            <p>A entrada no parque é totalmente gratuita. A exceção fica por conta de algumas atividades que podem ser feitas no local. Para mais informações entre em contato 
+            </p>
+        </div>
+
+        <div>
+            <h3>Contatos</h3>
+            <a href="https://ilhabela.ingressosparquespaulistas.com.br/" target="_blank">Página Oficial</a>
+            <br>
+            <a href="mailto:gulhak.contatos@gmailcom">E-mail</a>
+            <br>
+            <a href="tel:+5521999999999">Telefone</a>
+        </div>
+
+
+
+
+
+
+        </body>
+
+    </head>
+</html>
