@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <!--Define o inicio do forms, onde o atributo action- especifica para os os dados serão enviados-->
+    <!--Já o atributo method define o método http a ser usado que é o post-->
+    <form action="/pagina-processa-dados-do-form" method="post">
+
+        <!--Agrupa os elementos relacionados dentro do forms.-->
+        <fieldset>
+
+            <!--Fornece um título para o grupo de campos-->
+            <legend>Dados Gerais</legend>
+
+            <!--Define um rótulo para o campo de entrada. O atributo for deve corresponder ao id do campo de entrada-->
+            <label for="nome">Nome: </label>
+
+            <!--Cria um campo de entrada de texto, onde o minlegth garante que o usuário insira pelo menos 3 caracteres -->
+            <input type="text" minlength="3" id="nome" />
+
+            <label for="cpf">CPF:</label>
+            <input type="password" id="cpf" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required />
+        </fieldset>
+
+        <!--Outro agrupamento de elementos-->
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="tipo_endereco">Tipo: </label>
+            <select id="tipo_endereco">
+                <option value="">Selecione</option>
+                <option value="">Rua</option>
+                <option value="">Estrada</option>
+                <option value="">Rodovia</option>
+                <option value="">Outros</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+        
+            <!--Serva para ativar o campo relacionado-->
+            <label for="Logradouro_endereco">Logradouro:</label>
+            <input type="text" id="Logradouro_endereco" />
+
+            <label for="numero_endereco">Número:</label>
+            <input type="text" id="numero_endereco" />
+
+            <label for="complemento_endereco">Complemento:</label>
+            <input type="text" id="complemento_endereco" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Fale Conosco</legend>
+            <label for="msg">Mensagem:</label>
+            <textarea type="text" id="msg"></textarea>
+        </fieldset>
+
+
+        <!-- a tag fieldset cria as seções dentro do forms-->
+        <fieldset>
+            <button type="submit">Enviar sua Mensagem</button>
+            <button type="reset">Limpar o Formulário</button>
+        </fieldset>
+
+    </form>
+
+
+</body>
+</html>

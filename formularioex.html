@@ -1,0 +1,55 @@
+<!--Roteiro de prática
+
+A criação de um formulário precisa seguir algumas regras, como inserir o elemento container e os demais elementos, e também atributos, de acordo com a sua funcionalidade. Aqui, seguindo os passos abaixo, você deverá criar um formulário de contato.
+
+ 
+
+Utilizando um editor, crie a estrutura básica da página HTML e o container do formulário.
+O formulário deverá conter campos para inserção de: nome, e-mail e telefone de contato.
+O usuário deverá poder selecionar, em um calendário, a sua data de nascimento.
+O formulário deverá conter um campo para inserção de texto livre.
+Indique ao usuário o que ele deverá preencher em cada campo.
+Ao final, salve sua página e a teste no navegador. Lembre-se de incluir também o botão de submissão do formulário.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Prática</title>
+</head>
+<body>
+
+    <form action="/pagina-processa-dados-do-form" method="post">
+
+        <fieldset>
+            <legend>Inscrição</legend>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="Nome"  />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required />
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" required />
+        </fieldset>
+
+
+        <fieldset>
+            <label for="Datanascimento">Data de Nascimento:</label>
+            <input type="date" id="Datanascimento" required />
+        </fieldset>
+
+        <fieldset>
+            <label for="msg">Mensagem:</label>
+            <textarea type="text" id="msg"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <button type="submit">Concluído</button>
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
